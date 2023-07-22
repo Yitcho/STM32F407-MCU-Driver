@@ -1,0 +1,18 @@
+/*
+ * lcd_test.c
+ *
+ *  Created on: Jun 10, 2023
+ *      Author: Mahdi Kaffel
+ */
+#include "lcd_i2c.h"
+
+
+
+int main(void)
+{
+	lcd_i2c_init();
+
+	lcd_i2c_printf("Ahla");
+
+	return 0;
+}

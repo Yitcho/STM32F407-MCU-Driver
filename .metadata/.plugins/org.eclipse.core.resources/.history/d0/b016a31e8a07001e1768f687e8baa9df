@@ -1,0 +1,23 @@
+/*
+ * lcd.h
+ *
+ *  Created on: Jun 9, 2023
+ *      Author: Mahdi Kaffel
+ */
+
+#ifndef LCD_H_
+#define LCD_H_
+
+#include "stm32f407xx.h"
+
+void lcd_init(void);
+
+/*	Application Configurable items	*/
+#define LCD_I2C 			 	I2C2
+#define LCD_I2C_GPIO_PORT		GPIOB
+#define LCD_I2C_SCL_PIN			GPIO_PIN_NO_10
+#define LCD_I2C_SDA_PIN			GPIO_PIN_NO_11
+#define LCD_I2C_SPEED			I2C_SCL_SPEED_SM
+#define LCD_I2C_PUPD			GPIO_PIN_PU
+
+#endif /* LCD_H_ */

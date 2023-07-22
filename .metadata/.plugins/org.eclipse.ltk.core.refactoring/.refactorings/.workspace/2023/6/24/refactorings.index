@@ -1,0 +1,7 @@
+1686493328718	Delete resource 'lcd_test/lcd/lcd16x2_i2c.c'
+1686493330455	Delete resource 'lcd_test/lcd/lcd16x2_i2c.h'
+1686497035375	Delete resource 'stm32f4xx_drivers/BSP/lcd1.c'
+1686497094868	Delete resource 'stm32f4xx_drivers/BSP/lcd_i2c.c'
+1686497100158	Delete resource 'stm32f4xx_drivers/BSP/lcd_i2c.h'
+1686497102361	Delete resource 'stm32f4xx_drivers/BSP/lcd.c'
+1686497104103	Delete resource 'stm32f4xx_drivers/BSP/lcd.h'

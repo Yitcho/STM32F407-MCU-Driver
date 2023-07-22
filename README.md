@@ -1,0 +1,3 @@
+This carefully curated repository boasts an array of drivers, including GPIO, I2C, UART, and SPI, enabling you to effortlessly interface with various peripherals on your microcontroller. Whether you're a seasoned developer or just starting in the field, these drivers provide a solid foundation for your projects, saving you precious time and effort.
+
+What's more, we've gone the extra mile to include a comprehensive BSP layer for RTC (Real-Time Clock) and a 16x2 LCD (Liquid Crystal Display). The RTC driver ensures accurate and reliable timekeeping, vital for time-sensitive applications, while the LCD driver simplifies communication with the popular 16x2 character display, making it a breeze to visualize data and user interfaces.

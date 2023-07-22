@@ -1,0 +1,24 @@
+/*
+ * lcd_test.c
+ *
+ *  Created on: Jun 10, 2023
+ *      Author: Mahdi Kaffel
+ */
+#include "stm32f407xx.h"
+
+void gpio_init(void)
+{
+	GPIO_Handle_t button;
+	button.pGPIOx = GPIOA;
+	button.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_0;
+	button.GPIO_PinConfig.GPIO_PinMode = GPIO_MODE_IN;
+	button.GPIO_PinConfig.GPIO_PinSpeed = GPIO_SPEED_FAST;
+	button.GPIO_PinConfig.GPIO_PinPuPdControl = GPIO_NO_PUPD;
+	GPIO_Init(&button);
+}
+
+int main(void)
+{
+
+	return 0;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;stm32f4xx_drivers/Src/spi_Rxonly_arduino.c&apos; to &apos;spi_cmd_handling.c&apos;" description="Rename resource &apos;spi_Rxonly_arduino.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Src/spi_Rxonly_arduino.c" name="spi_cmd_handling.c" stamp="1681652585893" updateReferences="true"/>
+</session>

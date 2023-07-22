@@ -1,0 +1,30 @@
+/*
+ * lcd.c
+ *
+ *  Created on: Jun 4, 2023
+ *      Author: Mahdi Kaffel
+ */
+
+#include "lcd.h"
+
+void lcd_init(void)
+{
+	// Init the I2C Pins
+	lcd_i2c_pin_config();
+	// Initialize the I2C peripheral
+	lcd_i2c_config();
+	// Enable I2C
+	I2C_PeripheralControl(lcd_I2C, ENABLE);
+	// Make clock halt
+	lcd_write(0x00,lcd_ADDR_SEC);
+
+
+}
+
+void lcd_i2c_pin_config()
+{
+	GPIO_Handle_t i2c_pins;
+
+	i2c_pins.pGPIOx = ;
+	i2c_pins.GPIO_PinConfig.GPIO_PinAltFunMode = GPIO
+}

@@ -1,0 +1,14 @@
+stm32f407xx_uart.c:24:6:USART_PeriClockControl	14
+stm32f407xx_uart.c:71:6:USART_DeInit	8
+stm32f407xx_uart.c:103:6:USART_IRQConfig	12
+stm32f407xx_uart.c:146:6:USART_IRQPriorityConfig	1
+stm32f407xx_uart.c:154:9:USART_GetFlagStatus	2
+stm32f407xx_uart.c:174:6:USART_Init	9
+stm32f407xx_uart.c:251:6:USART_SendData	6
+stm32f407xx_uart.c:313:6:USART_ReceiveData	6
+stm32f407xx_uart.c:390:9:USART_SendDataIT	2
+stm32f407xx_uart.c:430:9:USART_ReceiveDataIT	2
+stm32f407xx_uart.c:463:6:USART_SetBaudRate	5
+stm32f407xx_uart.c:534:6:USART_PeripheralControl	2
+stm32f407xx_uart.c:559:6:USART_IRQHandling	30
+stm32f407xx_uart.c:813:13:USART_ApplicationEventCallback	1

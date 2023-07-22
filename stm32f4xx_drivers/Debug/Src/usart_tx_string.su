@@ -1,0 +1,7 @@
+../Src/usart_tx_string.c:23:6:delay	16	static
+../Src/usart_tx_string.c:31:6:USART_Inits	8	static
+../Src/usart_tx_string.c:43:6:USART1_GPIOInits	24	static
+../Src/usart_tx_string.c:60:6:GPIOA_Inits	24	static
+../Src/usart_tx_string.c:78:5:main	24	static
+../Src/usart_tx_string.c:110:6:USART1_IRQHandler	8	static
+../Src/usart_tx_string.c:115:6:USART_ApplicationEventCallback	16	static
